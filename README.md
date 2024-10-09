@@ -4,25 +4,35 @@
 
 ## 🎯 Features
 **User Authentication:** Secure account creation and login with Firebase Authentication.
+
 **Posts:** Users can create posts, like, share, comment, and save posts.
+
 **Real-time Notifications:** Users are notified when someone interacts with their posts (e.g., likes, unlikes).
+
 **Follow System:** Follow other users and keep track of their posts.
+
 **Feed Sections:** Two feed sections – All Posts and Following Posts.
+
 **Account Privacy:** Set your account to private or public.
+
 **Report Abuse:** Report posts or users that violate community guidelines.
+
 **Responsive Design:** Fully optimized for desktop, tablet, and mobile devices.
 
 
 
 ## 🚀Technologies
 **Frontend:** React (with Vite), TailwindCSS
+
 **Backend:** Firebase (Authentication, Firestore, Storage)
+
 **Hosting:** Vercel
+
 **Real-time Functionality:** Firebase Realtime Database & Firestore
 
 
 
-💻 ## Local Development
+<h3>💻  Local Development<h3/>
 
 ### Prerequisites
 
@@ -74,4 +84,4 @@ npm run dev
 Open your browser and navigate to http://localhost:5173.
 
 
-<h2>Live Demo:</h2>
+<h2>Live Demo:https://prodigy-fs-05.vercel.app/</h2>
