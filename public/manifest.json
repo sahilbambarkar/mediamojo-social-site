@@ -1,0 +1,17 @@
+{
+  "name": "Socialite : A emerging social media",
+  "short_name": "Socialite",
+  "description": "emerging app for twitter alternative",
+  "version": "0.0.1",
+  "start_url": "/",
+  "display": "fullscreen",
+  "theme_color": "rgb(249, 24, 128)",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
