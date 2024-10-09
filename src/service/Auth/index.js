@@ -12,13 +12,13 @@ import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 import { toast } from "react-toastify";
 const firebaseConfig = {
-  apiKey: "AIzaSyDP3DQVmA5XG09uIGkHMu2E85KWQcYfEDI",
-  authDomain: "e-commerce-f7b64.firebaseapp.com",
-  projectId: "e-commerce-f7b64",
-  storageBucket: "e-commerce-f7b64.appspot.com",
-  messagingSenderId: "696807976660",
-  appId: "1:696807976660:web:be41ea08bd91539be7d541",
-  measurementId: "G-5TFRJ549KF"
+  
+VITE_FIREBASE_API_KEY=your-api-key
+VITE_FIREBASE_AUTH_DOMAIN=your-auth-domain
+VITE_FIREBASE_PROJECT_ID=your-project-id
+VITE_FIREBASE_STORAGE_BUCKET=your-storage-bucket
+VITE_FIREBASE_MESSAGING_SENDER_ID=your-messaging-sender-id
+VITE_FIREBASE_APP_ID=your-app-id
 };
 
 // Initialize Firebase
