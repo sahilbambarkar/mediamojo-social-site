@@ -32,7 +32,8 @@
 
 
 
-<h3>💻  Local Development<h3/>
+
+<h3>##💻Local Development<h3/>
 
 ### Prerequisites
 
@@ -59,7 +60,9 @@ npm install
 3. Set up Firebase:
 
 a. Go to Firebase Console.
+
 b. Create a new project and enable Firebase Authentication, Firestore, and Storage.
+
 c. Get your Firebase configuration keys and add them to your .env.local file:
 
 
