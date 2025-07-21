@@ -1,4 +1,3 @@
-'use client';
 
 import { Suspense } from "react";
 import { NotificationsSkeleton } from "@/components/NotificationSkeleton";
