@@ -1,4 +1,3 @@
-Absolutely! Below is an **updated README** for your project, reflecting your new tech stack (Next.js App Router, PostgreSQL/Prisma, Clerk, UploadThing, TypeScript) and updated feature set. The wording emphasizes modern and professional social networking, clarity about technologies, and accurate setup instructions.
 
 # ✨ MediaMojo
 
