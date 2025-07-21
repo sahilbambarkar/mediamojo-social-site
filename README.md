@@ -22,7 +22,6 @@ MediaMojo is a modern, fully responsive social media platform where users can co
 - **Real-time Notifications** — Get notified for new followers, comments, and likes
 - **Media Uploads** — Share photos with your posts using UploadThing
 - **Responsive Design** — Looks fantastic on desktop, tablet, and mobile
-- **Security** — Uses JWT tokens, password hashing, and protected API routes
 - **Modern UI** — Built with Tailwind CSS for a fresh social experience
 
 ## 🔧 Local Setup
@@ -86,5 +85,6 @@ npm run dev
 
 Then open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## 🚀 Deployment
+
+## 📈 Live demo: [MediaMojo-Social](https://mediamojo-social.vercel.app/) 🎉
 
