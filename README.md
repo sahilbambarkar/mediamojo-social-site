@@ -57,8 +57,6 @@ DATABASE_URL=your-postgres-connection-url
 UPLOADTHING_TOKEN=your-uploadthing-token
 ```
 
-### 4. Database Setup
-Certainly! Here’s a **clear, concise update** for your README’s database setup section:
 
 ### 4. Set up the Database
 
