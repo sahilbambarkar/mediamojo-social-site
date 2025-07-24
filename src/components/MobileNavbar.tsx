@@ -1,25 +1,12 @@
 "use client";
-import {
-  BellIcon,
-  HomeIcon,
-  LogOutIcon,
-  MenuIcon,
-  MoonIcon,
-  SunIcon,
-  UserIcon,
-} from "lucide-react";
+import {BellIcon,HomeIcon,MenuIcon,  MoonIcon,  SunIcon,  UserIcon,} from "lucide-react";
 import { Button } from "@/components/ui/button";
-import {
-  Sheet,
-  SheetContent,
-  SheetHeader,
-  SheetTitle,
-  SheetTrigger,
-} from "@/components/ui/sheet";
+import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger,} from "@/components/ui/sheet";
 import { useState } from "react";
-import { useAuth, SignInButton, SignOutButton, useUser } from "@clerk/nextjs";
+import { useAuth,  useUser } from "@clerk/nextjs";
 import { useTheme } from "next-themes";
 import Link from "next/link";
+import { ThemedSignInButton, ThemedSignOutButton } from "./ThemedClerkButtons";
 
 function MobileNavbar() {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
@@ -89,23 +76,10 @@ function MobileNavbar() {
                     Profile
                   </Link>
                 </Button>
-
-                <SignOutButton>
-                  <Button
-                    variant="ghost"
-                    className="flex items-center gap-3 justify-start w-full"
-                  >
-                    <LogOutIcon className="w-4 h-4" />
-                    Logout
-                  </Button>
-                </SignOutButton>
+             <ThemedSignOutButton />
               </>
             ) : (
-              <SignInButton mode="modal">
-                <Button variant="default" className="w-full">
-                  Sign In
-                </Button>
-              </SignInButton>
+                <ThemedSignInButton/>
             )}
           </nav>
         </SheetContent>
